@@ -20,7 +20,9 @@ export default function RootLayout({
   return (
     <html className={openSans.className} lang="en">
       <body>
+      <Navbar />
         {children}
+      {/*<Footer />*/}
       </body>
     </html>
   );
